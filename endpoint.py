@@ -10,12 +10,11 @@ scoring_uri = 'http://cb68f2f6-066f-4f71-ac2f-cbe52241a827.westus2.azurecontaine
 key = '3oPtW4OnV9b8Kmb3PXBqpDCNi5P52qKw'
 
 # Two sets of data to score, so we get two results back
-data = {"data":
-        [
+data = [
           {       
             "age": 17,
 	    "job": "blue-collar",
-	  "marital": "married",
+	   "marital": "married",
 	    "education": "university.degree",
             "default": "no",
 	    "housing": "yes",
@@ -57,9 +56,8 @@ data = {"data":
             "euribor3m": 1.299
            
      
-          },
+          }
       ]
-    }
 # Convert to JSON string
 input_data = json.dumps(data)
 with open("data.json", "w") as _f:
