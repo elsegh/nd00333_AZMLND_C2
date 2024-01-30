@@ -58,7 +58,7 @@ Other metrics of the best model are shown below.
 
 ### Deployment
 
-![deployed_bestmodel](deployed_bestmodel.jpeg)
+![deployed_bestmodel](deployed_bestmodel.jpg)
 
 Deploy Best Model and Enable Logging:  The best model deployed Using Azure Container Instance (ACI) with Authentication enabled.
 The model endpoints  enable other services to  interact with the deployed model. Authentication is enabled during deployment so keys are generated which other services can use to authenticate before interacting with our deployed model.
