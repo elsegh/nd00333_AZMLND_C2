@@ -116,10 +116,10 @@ Run the swagger.sh and serve.py files to be able to interact with the swagger in
 
 #### Publishing a pipeline
 
-![publisihing_pipeline](publisihing_pipeline.jpg)
+![publisihing_pipeline](publisihing_pipeline.png)
 
 #### Results of a Pipeline run
-![run_results_pipeline](run_results_pipeline.jpg)
+![run_results_pipeline](run_results_pipeline..png)
 
 ### Benchmarking
 AutoML Classifier
