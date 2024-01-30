@@ -43,10 +43,10 @@ Automated ML Experiment: In this step an AutoML run was configured and several m
 
 #### Create AutoML run: 
 classification job is created using loaded Banking Dataset.
-![create_load_csvfile](create_load_csvfile.jpeg)
+![create_load_csvfile](create_load_csvfile.png)
 
 #### AutoML run completed
-![completed_experiment](completed_exp.jpeg)
+![completed_experiment](completed_exp.jpg)
 The eperiment has been completed  and best model is shown and can be accessed.
 
 The best model for this classification problem was a Voting Ensemble model with 0.94698 AUC metric.
