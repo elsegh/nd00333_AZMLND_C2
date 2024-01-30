@@ -10,7 +10,7 @@ Pipeline  was also created. published and consumed to automate the whole process
 The architectural diagram above shows the flow of operations from start to finish.
 
 
-![Architecture_diagram.jpeg](attachment:Architecture_diagram.jpeg)
+![Architecture_diagram](attachment:Architecture_diagram.jpeg)
 
 Each step  is described below:
 1. Upload a dataset:  either using the URL or uploading directly from a local folder.
