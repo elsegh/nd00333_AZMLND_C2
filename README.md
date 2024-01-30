@@ -43,10 +43,10 @@ Automated ML Experiment: In this step an AutoML run was configured and several m
 
 #### Create AutoML run: 
 classification job is created using loaded Banking Dataset.
-![create_load_csvfile.jpeg](create_load_csvfile.jpeg)
+![create_load_csvfile](create_load_csvfile.jpeg)
 
 #### AutoML run completed
-![completed_exp.jpeg](completed_exp.jpeg)
+![completed_experiment](completed_exp.jpeg)
 The eperiment has been completed  and best model is shown and can be accessed.
 
 The best model for this classification problem was a Voting Ensemble model with 0.94698 AUC metric.
@@ -54,11 +54,11 @@ Other metrics of the best model are shown below.
 
 
 #### Metric Details
-![metric_details_best_mdel%20%28kopia%202%29.jpg](attachment:metric_details_best_mdel%20%28kopia%202%29.jpg)
+![metric_details_best_model](metric_details_best_mdel%20%28kopia%202%29.jpg)
 
 ### Deployment
 
-![deployed_bestmodel.jpg](attachment:deployed_bestmodel.jpg)
+![deployed_bestmodel](deployed_bestmodel.jpg)
 
 Deploy Best Model and Enable Logging:  The best model deployed Using Azure Container Instance (ACI) with Authentication enabled.
 The model endpoints  enable other services to  interact with the deployed model. Authentication is enabled during deployment so keys are generated which other services can use to authenticate before interacting with our deployed model.
@@ -67,17 +67,17 @@ After deploying the  best model,Application Insights are enabled and retrieve lo
 
 ### Endpoint
 
-![endpoint.png](attachment:endpoint.png)
+![endpoint](endpoint.png)
 
-![endpoint_result.png](attachment:endpoint_result.png)
+![endpoint_result](endpoint_result.png)
 endpoint result
 
 #### Loggings
-![logs.py_running.png](attachment:logs.py_running.png)
+![logs.py_running](logs.py_running.png)
 
-![logs.py_running1.png](attachment:logs.py_running1.png)
+![logs.py_running1](logs.py_running1.png)
 
-![logs.py_running2.%29.png](attachment:logs.py_running2.%29.png)
+![logs.py_running2](logs.py_running2.%29.png)
 
 #### Swagger
 Swagger Documentation: Swagger is a tool to build, and document REST APIs. It can be used to share documentation among product managers, testers, and developers and can also be used by various tools to automate API-related processes.
@@ -89,41 +89,41 @@ To consume our best AutoML model using Swagger, the swagger.json file provided i
 Run the swagger.sh and serve.py files to be able to interact with the swagger instance running with the documentation for the HTTP API of the model.
 
 
-![swagger_serve_running.png](attachment:swagger_serve_running.png)
+![swagger_serve_running](swagger_serve_running.png)
 
-![swagger_localhost_bank.png](attachment:swagger_localhost_bank.png)
+![swagger_localhost_bank](swagger_localhost_bank.png)
 
 
-![banking_deployment.jpg](attachment:banking_deployment.jpg)
+![banking_deployment](banking_deployment.jpg)
 
 ### Create, Publish, and Consume a Pipeline: Here we use the Azure Python SDK 
 
-![pipeline_running.2png.png](attachment:pipeline_running.2png.png)
+![pipeline_running1](pipeline_running.2png.png)
 
-![pipeline_running.jpg](attachment:pipeline_running.jpg)
+![pipeline_running2](pipeline_running.jpg)
 
-![pipeline_endpoint.jpg](attachment:pipeline_endpoint.jpg)
+![pipeline_endpoint](pipeline_endpoint.jpg)
 
-![pipeline_jobs.jpg](attachment:pipeline_jobs.jpg)
+![pipeline_jobs](pipeline_jobs.jpg)
 
-![rest_endpoint.jpg](attachment:rest_endpoint.jpg)
+![rest_endpoint](rest_endpoint.jpg)
 
-![showing_pipelinesteps.png](attachment:showing_pipelinesteps.png)
+![showing_pipelinesteps](showing_pipelinesteps.png)
 
 #### Best Model: Prefitted SoftVoting Classifier.
 
-![pipeline_best_model.png](attachment:pipeline_best_model.png)
+![pipeline_best_model](pipeline_best_model.png)
 
 #### Publishing a pipeline
 
-![publisihing_pipeline..png](attachment:publisihing_pipeline..png)
+![publisihing_pipeline](publisihing_pipeline..png)
 
 #### Results of a Pipeline run
-![run_results_pipeline.png](attachment:run_results_pipeline.png)
+![run_results_pipeline](run_results_pipeline.png)
 
 ### Benchmarking
 AutoML Classifier
-![benchmarking.png](attachment:benchmarking.png)
+![benchmarking](benchmarking.png)
 
 ## Screen Recording
 
